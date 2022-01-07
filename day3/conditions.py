@@ -1,6 +1,7 @@
-height = int(input('write the height of a participant'))
+print('Welcome to the rollercoster!')
+height = int(input('What is you height in cm?'))
 
 if height > 120:
-    print('you can get in ')
+    print('You can ride the rollecosaster!')
 else: 
-    print('you no can get in')
+    print('Sorry, you have to grow taller before you can ride.')
